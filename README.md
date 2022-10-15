@@ -1,2 +1,2 @@
-# HTML-projeccts
+# HTML-projects
 This repository is made for containing the codes which are in language HTML, CSS and JS.
