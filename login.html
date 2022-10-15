@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">  
 <title> Login Page </title>  
 <style>   
-Body {  
+body {  
   font-family: Calibri, Helvetica, sans-serif;  
   background-color: pink;  
 }  
@@ -17,9 +17,7 @@ button {
         border: none;   
         cursor: pointer;   
          }   
- form {   
-        border: 3px solid #f1f1f1;   
-    }   
+   
  input[type=text], input[type=password] {   
         width: 100%;   
         margin: 8px 0;  
@@ -39,15 +37,21 @@ button {
         
      
  .container {   
+        border: 3px solid #f1f1f1; 
         padding: 25px;   
         background-color: lightblue;  
+        width: 250px;
+        margin: 0 auto;
+        float:none;
+        
     }   
 </style>   
 </head>    
 <body>    
     <center> <h1> Student Login Form </h1> </center>   
-    <form>  
-        <div class="container">   
+    <div class="container">
+        <form>  
+           
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username" required>  
             <label>Password : </label>   
@@ -55,8 +59,10 @@ button {
             <button type="submit">Login</button>   
             <input type="checkbox" checked="checked"> Remember me   
             <button type="button" class="cancelbtn"> Cancel</button>   
-            Forgot <a href="#"> password? </a>   
-        </div>   
-    </form>     
+            Forgot <a href="#"> password? </a>   <br>
+            New user? Click <a href="signup.html">here</a> 
+           
+        </form> 
+    </div>    
 </body>     
 </html>
