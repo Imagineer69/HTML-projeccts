@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="favicon (1).ico">
+    <style>
+        .heading
+        {    padding-top:20px;
+            background-color: #5837D0;
+            padding-bottom: 20px;
+        }
+        body
+        {   margin:0;
+            background-color:#5DA7DB;
+        }
+        .para1
+        { font-size: 0.5cm;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight:bold;
+
+        }
+        .p1
+        {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="body">
+    <div class="heading">
+    <header>
+        <center>
+
+        <h1 style="font-size:50px">Dr. APJ Abdul Kalam</h1>
+        </center>
+    </header>
+    </div>
+
+    <main>
+        <table cellspacing="20px">
+            <tbody>
+                <tr>
+                    <td><img src="https://www.apjabdulkalamfoundation.org/images/about/abdulkalamprofile.jpg" alt="Dr.APJ Abdul kalam" height="400px"></td>
+                    <td>
+                        <div class="p1">
+                        <p class="para1">
+                            Avul Pakir Jainelabdeen Abdul Kalam was the 11th
+                             President of the country from 2002 and 2007 and is also popularly known as the 'Missile Man' of
+                              India. Born in a poor family in Tamil Nadu's Rameswaram, Kalam went on to study physics and 
+                              aerospace engineering and worked with Defence Research and Development Organisation (DRDO) and 
+                              Indian Space Research Organisation (ISRO). He also played a role in 1998 Pokhran-II tests under 
+                              leadership of Atar Bihar Vajpayee. Abdul Kalam was felicitated with a Padma Bhushan in 1981,
+                               Padma Vibhushan in 1990 and then received India's highest civilian honour Bharat Ratna in 1997. 
+                               He is also known for a humble and respectful attitude towards people and was called the 'People's
+                                President'. After the end of his tenure as President of the country, he went back to delivering
+                                 lectures to students and writing. He died after suffering cardiac arrest while delivering a 
+                                 lecture at Indian Institute of Management Shillong on July, 27, 2015. He was buried in his 
+                                 hometown Rameswaram with full state honours.
+                        </p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <br>
+    <br>
+     <footer><center>
+        <a href="https://www.linkedin.com/in/jahnvi-chaurasia-b681b3213?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BugsoawgwQsKKQo11myPmVA%3D%3D"><img src="data:image/png;base64,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" alt="linkedin" height="40px"></a>
+        <p>
+            Join me on Linkedin
+        </p>
+
+    </center></footer>
+    </div>
+</body>
+</html>
