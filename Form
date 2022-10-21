@@ -1,0 +1,75 @@
+<!--Learning forms-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon (1).ico">
+    <title>Form</title>
+</head>
+<body style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <h1 style="text-align: center;">This is a form</h1>
+    <strong><p style="font-size:3">Fill the form</p></strong>
+    <br><strong>
+    <form action="mailto:jahnvichaurasia481@gmail.com">
+         <div>
+            <label>
+                Name:
+         <input type="text" name="myname" id="name1">
+            </label>
+         </div>
+         <br>
+         <div><label> Roll:<input type="text" name="myrole"  id="role1"  > </label></div>
+         <br>
+         <div><label for="email1">Email</label><input type="email" name="myemail" id="email1"></div>
+         <div>
+            Gender: 
+            <label for="female">Female:</label>
+            <input type="radio" name="mygen" id="female">
+            <label for="male">Male:</label>
+            <input type="radio" name="mygen" id="male">
+            <label for="other">Other:</label>
+            <input type="radio" name="mygen" id="other">
+         </div>
+         <br>
+         <div><label for="date">Date</label><input type="date" name="d" id="date"></div>
+         <br>
+         <div><label for="status">Are you single</label><input type="checkbox" name="d" id="status"></div>
+         <br>
+        <div><label>Password:<input type="password" name="pass"></label></div>
+        <br>
+          <div><label>Check the Botton:<input type="button" name="b"></label></div>
+          <br>
+          <div><label>Set teh range<input type="range" name="r"></label></div>
+          <br>
+          <div><label><input type="hidden" name="h"></label></div>
+          <br>
+          <div><label>Color:<input type="color" name="c"></label></div>
+          <br>
+          <div><label>Number:<input type="number" name="num"></label></div>
+          <br>
+          <div><label>DateTime:<input type="datetime" name="dt"></label></div>
+          <br>
+          <div><label>Datetime local:<input type="datetime-local" name="ld"></label></div>
+          <br>
+          <div><label>Search Any thing:<input type="search" name="s"></label></div>
+          <br>
+          <div><label><input type="submit" value="submit"></label></div>
+          <br>
+          <div><label><input type="reset" value="reset"></label></div>
+          <br>
+          <div><label>Dont know what it is:<input type ="tel"></label></div>
+          <br>
+          <label>Select  city:<select>
+             <option>Lucknow</option>
+             <option selected>Delhi</option>
+             <option>Kanpur</option>
+             <option>Pune</option>
+             <option>Banglore</option>
+          </select></label>
+          <br>
+          <center>Write about yourself:
+            <br><textarea rows="30" cols="50"></textarea></center>
+    </form></strong>
+
+</body>
+</html>
